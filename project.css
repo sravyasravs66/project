@@ -1,0 +1,106 @@
+ body {
+            background: url('https://plus.unsplash.com/premium_photo-1675827055668-2dae1b8ac181?fm=jpg&q=60&w=3000') no-repeat center center;
+            background-size: cover; 
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 350px;
+            background: linear-gradient(25deg, #79f14a, #9bec86, #c0efb5);
+            padding: 25px;
+            border-radius: 25px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #d364bd;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 15px;
+            border: 1px solid rgb(118, 116, 116);
+            outline: none;
+        }
+
+        button {
+            margin-top: 12px;
+            padding: 10px;
+            font-size: 18px;
+            border: none;
+            background: #2184c7;
+            color: white;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #2477b3;
+        }
+
+        #loading {
+            display: none;
+            margin-top: 10px;
+            font-size: 18px;
+            color: #e67e22;
+            font-weight: bold;
+        }
+
+        #errormsg {
+            color: red;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        #result {
+            margin-top: 12px;
+            text-align: left;
+        }
+
+        .weather-card {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px #00000030;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .icon-emoji {
+            font-size: 70px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .history-box {
+            margin-top: 18px;
+            padding: 10px;
+            background: rgba(255,255,255,0.65);
+            border-radius: 12px;
+        }
+
+        .history-box h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .history-item {
+            background: white;
+            padding: 6px;
+            margin: 5px 0;
+            border-radius: 10px;
+            font-size: 15px;
+            box-shadow: 0px 0px 4px #00000020;
+        }
